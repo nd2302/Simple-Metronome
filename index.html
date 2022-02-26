@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2277/2277937.png">
+    <title>Metronome</title>
+</head>
+<body>
+    <div class="container">
+        <span class="head">Simple Metronome</span>
+        <div class="metronome">
+            <div class="bpm-display">
+                <span class="tempo" data-editable>150</span>
+                <span class="bpm">BPM</span>
+            </div>
+            <div class="tempo-text">Allegro</div>
+            <div class="tempo-setting">
+                <div class="adjust-tempo-btn dec">-</div>
+                <input type="range" min="1" max="300" step="1" class="slider">
+                <div class="adjust-tempo-btn inc">+</div>
+            </div>
+            <div class="measures">
+                <div class="but subtract-beats">-</div>
+                <div class="measure-count">4</div>
+                <div class="but add-beats">+</div>
+            </div>
+            <span class="beats-per-measure">BEATS PER MEASURE</span>
+            <br>
+            <div class="start-stop">START</div>
+            <!-- <span class="author"> Made by Nishant Dash </span> -->
+        </div>
+    </div>
+    <script src="./app.js" type="module"></script> <!-- Type Module to use multiple js files-->
+</body>
+</html>
