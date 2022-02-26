@@ -44,7 +44,7 @@ subBeatBtn.addEventListener('click', () => {
     count = 0;
 });
 addBeatBtn.addEventListener('click', () => {
-    if (beatsPerMeasure >= 12) { return };
+    if (beatsPerMeasure >= 18) { return };
     beatsPerMeasure++;
     measureCount.textContent = beatsPerMeasure;
     count = 0;
