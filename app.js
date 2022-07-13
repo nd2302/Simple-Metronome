@@ -13,7 +13,7 @@ const startButton = document.querySelector('.start-stop');
 const click2 = new Audio('click1.mp3');
 const click1 = new Audio('click2.mp3');
 
-let bpm = 150;
+let bpm = 100;
 let beatsPerMeasure = 4;
 let count = 0;
 let isRunning = false;
